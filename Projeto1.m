@@ -52,7 +52,7 @@ while(1)
     %a junção forma celulas, aqui eu tranformo a celula em strings
     str = juncao{1};
 
-    %chama a função de yang
+    %chama a função
     [status,term_out] = system(str);
 
     %convertendo a saida de string para numeros
